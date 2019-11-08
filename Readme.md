@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Igor Zorin](https://up.htmlacademy.ru/adaptive/18/user/584557).
-* Наставник: `Неизвестно`.
+- Студент: [Igor Zorin](https://up.htmlacademy.ru/adaptive/18/user/584557).
+- Наставник: `СамСебе НаУме`.
 
 ---
 
