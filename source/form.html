@@ -38,7 +38,104 @@
 
       <img class="page-header__logo" src="" alt="логотип" />
     </header>
-    <main class="main-content"></main>
+    <main class="main-content">
+      <h1 class="page-title">
+        Оставьте свой отзыв
+      </h1>
+
+      <p class="page-intro">
+        Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о
+        посещенных вами достопремечательностях
+      </p>
+
+      <form action="https://echo.htmlacademy.ru" class="recall-form">
+        <fieldset class="recall-form__fieldset">
+          <legend class="recall-form__legend">Представьтесь:</legend>
+          <label class="recall-form__text-label"
+            >Имя*:
+            <input type="text" name="firstNmae" placeholder="Петр" required />
+          </label>
+          <label class="recall-form__text-label"
+            >Фамилия*:
+            <input type="text" name="lastName" placeholder="Иванов" required />
+          </label>
+          <label class="recall-form__text-label"
+            >Отчество:
+            <input type="text" name="patronymic" placeholder="Александрович" />
+          </label>
+        </fieldset>
+        <fieldset class="recall-form__fieldset">
+          <legend class="recall-form__legend">Контактаная инфаормация:</legend>
+          <label class="recall-form__text-label"
+            >Контактный телефон*:
+            <input type="tel" name="userPhoneNumber" required />
+          </label>
+          <label class="recall-form__text-label"
+            >Электронная почта:
+            <input type="email" name="userMail" required />
+          </label>
+        </fieldset>
+        <fieldset class="recall-form__fieldset">
+          <legend class="recall-form__legend">Общее впечатление</legend>
+          <label class="recall-form__check-label"
+            >Скорее положительное
+            <input type="radio" name="impression" value="positive" checked />
+          </label>
+          <label class="recall-form__check-label"
+            >Скорее отрицательное
+            <input type="radio" name="impression" value="negative" />
+          </label>
+          <label class="recall-form__check-label"
+            >Затрудняюсь ответить
+            <input type="radio" name="impression" value="noAnswer" />
+          </label>
+        </fieldset>
+        <fieldset class="recall-form__fieldset">
+          <legend class="recall-form__legend">
+            Посещенные достопримечательности:
+          </legend>
+          <label class="recall-form__check-label"
+            >Мост Дьявола
+            <input
+              type="checkbox"
+              name="attractions"
+              checked="checked"
+              value="devilBridge"
+            />
+          </label>
+          <label class="recall-form__check-label"
+            >Гора-Колокол
+            <input
+              type="checkbox"
+              name="attractions"
+              checked="checked"
+              value="MountBell"
+            />
+          </label>
+          <label class="recall-form__check-label"
+            >Слайд-парк
+            <input
+              type="checkbox"
+              name="attractions"
+              checked="checked"
+              value="SlidePark"
+            />
+          </label>
+          <label class="recall-form__check-label"
+            >Красные скалы
+            <input type="checkbox" name="attractions" value="RedRocks" />
+          </label>
+        </fieldset>
+        <fieldset class="recall-form__fieldset">
+          <legend class="recall-form__legend">Опишите свои эмоции:</legend>
+          <textarea
+            placeholder="Опишите подробно все свои восторги"
+            name="userEmotions"
+          ></textarea>
+        </fieldset>
+        <button type="submit">ОТПРАВИТЬ ОТЗЫВ</button>
+      </form>
+    </main>
     <footer class="page-footer">
       <b class="page-footer__hashtag">#visitsedona</b>
 
